@@ -1,5 +1,5 @@
 # 💫 About Me:
-# Hi, I'm Refina Kusuma Friambudi 👋  <br>UI/UX Designer • Front-end Learner • Lifelong Learner  <br><br>Designing meaningful and aesthetic digital experiences ✨  <br><br>---<br><br>## 🌸 About Me<br>- 🎨 Focus on UI/UX Design (Figma, prototyping, user research)<br>- 💻 Currently learning HTML, CSS, JavaScript, PHP<br>- 🤝 Open to collaborate on website & mobile app projects<br>- 🌱 Always improving my design + coding skills<br>- ⚡ Love clean, simple, and user-friendly interfaces<br><br>---<br><br>## 🛠️ Tools & Skills<br>Figma • Canva • HTML • CSS • JavaScript • PHP • VS Code<br><br>---<br><br>## 📊 GitHub<br>Aktif mengerjakan project design & front-end development<br><br>---<br><br>## 🌐 Connect With Me<br>📧 Email : refinakusuma.id17@gmail.com  <br>💼 Portfolio : https://www.notion.so/PORTOFOLIO-2c04de90fff58019b257cf514743a9af  <br>💼 LinkedIn : https://www.linkedin.com/in/refina-kusuma-172a50395  <br><br>---<br><br>✨ "Good design is not just how it looks, but how it works."<br>
+### Hi, I'm Refina Kusuma Friambudi 👋<br>UI/UX Designer • Front-end Learner • Lifelong Learner  <br><br>Designing meaningful and aesthetic digital experiences ✨  <br><br>---<br><br>### 🌸 About<br>- Focused on UI/UX design (Figma, wireframing, prototyping, user research)<br>- Currently learning HTML, CSS, JavaScript, and PHP<br>- Open to collaborating on website and mobile app projects<br>- Continuously improving both design and coding skills<br>- Passionate about clean, simple, and user-friendly interfaces<br><br>---<br><br>### 🛠️ Tools<br>Figma • Canva • HTML • CSS • JavaScript • PHP • VS Code<br><br>---<br><br>### 📊 GitHub<br>Actively building design and front-end development projects.<br><br>---<br><br>### 🌐 Connect<br>Email : refinakusuma.id17@gmail.com  <br>Portfolio : https://www.notion.so/PORTOFOLIO-2c04de90fff58019b257cf514743a9af  <br>LinkedIn : https://www.linkedin.com/in/refina-kusuma-172a50395  <br><br>---<br><br>✨ Good design is not just how it looks, but how it works.
 
 
 # 💻 Tech Stack:
@@ -11,8 +11,5 @@
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-[![](https://visitcount.itsvg.in/api?id=pinaaa23&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
