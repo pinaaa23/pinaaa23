@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.gif" width="100%" />
+  <img src="https://raw.githubusercontent.com/pinaaa23/pinaaa23/main/assets/banner.gif" width="100%" />
 </p>
 
 <h1 align="center">Hi there, I'm Pinaaa 👋</h1>
