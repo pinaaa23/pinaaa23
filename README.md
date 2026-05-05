@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pinaaa23/pinaaa23/main/assets/banner.gif" width="100%" />
+  <video src="https://raw.githubusercontent.com/pinaaa23/pinaaa23/main/assets/banner.mp4" autoplay loop muted width="100%"></video>
 </p>
 
 <h1 align="center">Hi there, I'm Pinaaa 👋</h1>
