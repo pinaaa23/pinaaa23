@@ -1,8 +1,8 @@
-<h1 align="center">Hi there, I'm Pinaaa 👋</h1>
-
 <p align="center">
   <img src="assets/banner.gif" width="100%" />
 </p>
+
+<h1 align="center">Hi there, I'm Pinaaa 👋</h1>
 
 <p align="center">
   ✨ Designing & building aesthetic web experiences ✨
