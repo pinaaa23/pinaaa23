@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0a59f43f-b21c-46eb-a45c-c2f29c3a6ab1" width="100%" alt="Banner">
+  <video src="https://github.com/user-attachments/assets/0a59f43f-b21c-46eb-a45c-c2f29c3a6ab1" width="100%" autoplay loop muted playsinline></video>
 </p>
 
 
