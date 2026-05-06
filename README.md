@@ -1,6 +1,7 @@
 <p align="center">
-  <video src="assets/banner.mp4" width="100%" autoplay loop muted></video>
+  <img src="https://github.com/user-attachments/assets/0a59f43f-b21c-46eb-a45c-c2f29c3a6ab1" width="100%" alt="Banner">
 </p>
+
 
 <h1 align="center">Hi there, I'm Pinaaa 👋</h1>
 
