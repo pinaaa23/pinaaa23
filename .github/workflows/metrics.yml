@@ -1,0 +1,41 @@
+name: Metrics
+on:
+  # Update otomatis setiap 12 jam
+  schedule: [{cron: "0 */12 * * *"}]
+  # Memungkinkan update manual via tab Actions
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Konfigurasi Tampilan
+          user: pinaaa23
+          template: classic
+          base: header, community, repositories, metadata
+          config_timezone: Asia/Jakarta
+          
+          # Plugin Bahasa (Donut chart)
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          
+          # Plugin Habits (Aktivitas per jam)
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          
+          # Plugin Activity (Grafik kontribusi)
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          
+          # Tema Warna (Tokyo Night agar senada dengan yang lain)
+          config_theme: tokyonight

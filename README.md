@@ -1,5 +1,5 @@
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/0a59f43f-b21c-46eb-a45c-c2f29c3a6ab1" width="100%" autoplay loop muted playsinline></video>
+  <img src="assets/banner.gif" width="100%" alt="banner">
 </p>
 
 
@@ -35,26 +35,24 @@
       <pre>
 ┌──(refina@space)-[about]
 └─$ whoami
-
 Name      : Refina Kusuma
 Role      : UI/UX • Frontend Dev
 Focus     : Aesthetic UI Design
 Stack     : HTML • CSS • JS
 Approach  : Design → Code
-Status    : Building projects 🚀
+Status    : Building projects
 </pre>
     </td>
     <td valign="top">
       <pre>
 ┌──(refina@space)-[focus]
 └─$ cat skills.txt
-
 Design    : UI/UX • Wireframe
 Frontend  : Responsive Web UI
 Tools     : Figma • VS Code
 Specialty : Clean interface
 Now       : Learning • Building
-Open for  : Collaboration 🚀 
+Open for  : Collaboration
 </pre>
     </td>
   </tr>
@@ -65,39 +63,52 @@ Open for  : Collaboration 🚀
 
 ### 🛠️ { TECH STACK }
 
-<p align="center">
-  <b>◆ Design ◆</b><br/>
-  <img src="https://img.shields.io/badge/Figma-1a1b26?style=for-the-badge&logo=figma&logoColor=7aa2f7" />
-  <img src="https://img.shields.io/badge/Canva-1a1b26?style=for-the-badge&logo=canva&logoColor=7aa2f7" />
-</p>
-
-<p align="center">
-  <b>◆ Frontend ◆</b><br/>
-  <img src="https://img.shields.io/badge/HTML-1a1b26?style=for-the-badge&logo=html5&logoColor=bb9af7" />
-  <img src="https://img.shields.io/badge/CSS-1a1b26?style=for-the-badge&logo=css3&logoColor=bb9af7" />
-  <img src="https://img.shields.io/badge/JavaScript-1a1b26?style=for-the-badge&logo=javascript&logoColor=bb9af7" />
-  <img src="https://img.shields.io/badge/React-1a1b26?style=for-the-badge&logo=react&logoColor=bb9af7" />
-  <img src="https://img.shields.io/badge/Next.js-1a1b26?style=for-the-badge&logo=next.js&logoColor=bb9af7" />
-</p>
-
-<p align="center">
-  <b>◆ Tools ◆</b><br/>
-  <img src="https://img.shields.io/badge/Git-1a1b26?style=for-the-badge&logo=git&logoColor=7dcfff" />
-  <img src="https://img.shields.io/badge/GitHub-1a1b26?style=for-the-badge&logo=github&logoColor=7dcfff" />
-  <img src="https://img.shields.io/badge/VS%20Code-1a1b26?style=for-the-badge&logo=visualstudiocode&logoColor=7dcfff" />
-</p>
+<div align="center">
+<table border="0">
+<tr>
+<td valign="top">
+<pre>
+┌──(refina@space)-[design]
+└─$ stack --design
+• Figma
+• Canva
+• UI/UX Design
+• Wireframing
+• Prototyping
+</pre>
+</td>
+<td valign="top">
+<pre>
+┌──(refina@space)-[frontend]
+└─$ stack --frontend
+• HTML5 / CSS3
+• JavaScript
+• React.js
+• Next.js
+• Tailwind CSS
+</pre>
+</td>
+<td valign="top">
+<pre>
+┌──(refina@space)-[tools]
+└─$ stack --tools
+• Git / GitHub
+• VS Code
+• Webpack
+• Vercel
+• Postman
+</pre>
+</td>
+</tr>
+</table>
+</div>
 
 <br/>
 
 ### 📊 { GITHUB STATS }
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pinaaa23&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="pinaaa23's GitHub Stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pinaaa23&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="pinaaa23's Top Langs" height="150" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pinaaa23&theme=tokyonight&hide_border=true&background=0D1117" alt="pinaaa23's GitHub Streak" />
+  <img src="github-metrics.svg" alt="GitHub Metrics" width="100%" />
 </p>
 
 <br/>
