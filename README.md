@@ -27,7 +27,7 @@
 
 <p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-activity-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/h-activity-light.svg"><img src="assets/h-activity-dark.svg" alt="Activity"></picture></p>
 <p align="center">
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-snake.svg"><img alt="Contribution snake" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-snake-dark.svg"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pinaaa23/pinaaa23/output/github-snake-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pinaaa23/pinaaa23/output/github-snake.svg"><img alt="Contribution snake" src="https://raw.githubusercontent.com/pinaaa23/pinaaa23/output/github-snake-dark.svg"></picture>
 </p>
 
 <!--
