@@ -10,7 +10,7 @@ import re
 import xml.dom.minidom
 
 # ───────────────────────── CONFIG ─────────────────────────
-USERNAME = "YOUR_USERNAME"          # <- GitHub username (used by the snake)
+USERNAME = "pinaaa23"          # <- GitHub username (used by the snake)
 NAME = "Refina Kusuma"
 FIRST, LAST = "Refina", "Kusuma"
 ROLE = "Frontend Developer · UI/UX Enthusiast"
@@ -35,11 +35,7 @@ LINKS = [  # label, url
     ("LinkedIn", "https://www.linkedin.com/in/YOUR_LINKEDIN"),
     ("Dribbble", "https://dribbble.com/YOUR_DRIBBBLE"),
 ]
-PROJECTS = [  # name, url, description, stack
-    ("Project One", "https://github.com/YOUR_USERNAME/project-one", "Short one-line description of what it does.", "React · Tailwind"),
-    ("Project Two", "https://github.com/YOUR_USERNAME/project-two", "Short one-line description of what it does.", "Next.js · Figma"),
-    ("Project Three", "https://github.com/YOUR_USERNAME/project-three", "Short one-line description of what it does.", "HTML · CSS · JS"),
-]
+PROJECTS = []  # add real ones: ("Name", "https://...", "One-line description", "React · Tailwind")
 # ──────────────────────────────────────────────────────────
 
 SANS = "Inter,'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif"
@@ -343,40 +339,28 @@ def button(label):
 
 # ───────────────────────── build ─────────────────────────
 def main():
-    sections = [("01", "About"), ("02", "Tech Stack"), ("03", "Selected Work"), ("04", "Activity"), ("05", "Connect")]
     for mode, t in THEMES.items():
         save(f"banner-{mode}.svg", banner(t))
-        save(f"about-{mode}.svg", about(t))
         save(f"stack-{mode}.svg", stack(t))
-        save(f"footer-{mode}.svg", footer(t))
-        for idx, lab in sections:
-            save(f"h-{lab.lower().replace(' ', '-')}-{mode}.svg", header(idx, lab, t))
-    save("divider-dark.svg", divider(THEMES["dark"]))
-    save("divider-light.svg", divider(THEMES["light"]))
-    widths = {}
-    for lab, _ in LINKS:
+    links = [(l, u) for l, u in LINKS if "YOUR_" not in u]
+    for lab, _ in links:
         svg, w = button(lab)
         save(f"btn-{lab.lower()}.svg", svg)
-        widths[lab] = w
 
-    def pic(name, alt, width=None, link=None):
-        wattr = f' width="{width}"' if width else ""
-        p = (f'<picture><source media="(prefers-color-scheme: dark)" srcset="assets/{name}-dark.svg">'
-             f'<source media="(prefers-color-scheme: light)" srcset="assets/{name}-light.svg">'
-             f'<img src="assets/{name}-dark.svg" alt="{alt}"{wattr}></picture>')
-        return f'<a href="{link}">{p}</a>' if link else p
+    def pic(name, alt):
+        return (f'<picture><source media="(prefers-color-scheme: dark)" srcset="assets/{name}-dark.svg">'
+                f'<source media="(prefers-color-scheme: light)" srcset="assets/{name}-light.svg">'
+                f'<img src="assets/{name}-dark.svg" alt="{alt}"></picture>')
 
-    def head(lab):
-        slug = lab.lower().replace(" ", "-")
-        return f'<p align="center">{pic("h-" + slug, lab)}</p>'
-
-    btns = "\n".join(f'<a href="{u}"><img src="assets/btn-{l.lower()}.svg" alt="{l}" height="40"></a>' for l, u in LINKS)
-    rows = "\n".join(f"| **[{n}]({u})** | {d} | `{s}` |" for n, u, d, s in PROJECTS)
-    snake = (f'<picture>'
-             f'<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/output/github-snake-dark.svg">'
-             f'<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/output/github-snake.svg">'
-             f'<img alt="Contribution snake" src="https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/output/github-snake-dark.svg">'
-             f'</picture>')
+    raw = f"https://raw.githubusercontent.com/{USERNAME}/{USERNAME}/output"
+    btns = "\n".join(f'<a href="{u}"><img src="assets/btn-{l.lower()}.svg" alt="{l}" height="40"></a>' for l, u in links)
+    snake = (f'<picture><source media="(prefers-color-scheme: dark)" srcset="{raw}/github-snake-dark.svg">'
+             f'<source media="(prefers-color-scheme: light)" srcset="{raw}/github-snake.svg">'
+             f'<img alt="Contribution snake" src="{raw}/github-snake-dark.svg"></picture>')
+    work = ""
+    if PROJECTS:
+        rows = "\n".join(f"| **[{n}]({u})** | {d} | `{s}` |" for n, u, d, s in PROJECTS)
+        work = f"\n### Selected work\n\n| Project | What it is | Stack |\n| :-- | :-- | :-- |\n{rows}\n"
 
     readme = f"""<p align="center">
 {pic("banner", NAME + " — " + ROLE)}
@@ -386,39 +370,19 @@ def main():
 {btns}
 </p>
 
-<p align="center">{pic("divider", "")}</p>
+<p align="center">
+<img src="{raw}/scan.svg" alt="Profile scan for {USERNAME}" width="900">
+</p>
 
-{head("About")}
-<p align="center">{pic("about", "About me")}</p>
+### Stack
 
-{head("Tech Stack")}
 <p align="center">{pic("stack", "Tech stack")}</p>
+{work}
+### Activity
 
-{head("Selected Work")}
-
-| Project | What it is | Stack |
-| :-- | :-- | :-- |
-{rows}
-
-{head("Activity")}
 <p align="center">
 {snake}
 </p>
-
-<!--
-OPTIONAL single stats card (public Vercel instances are often rate-limited and can show broken images,
-so it is off by default). Uncomment if you want it:
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=a78bfa&text_color=ececf1" alt="Top languages">
-</p>
--->
-
-{head("Connect")}
-<p align="center">
-{btns}
-</p>
-
-<p align="center">{pic("footer", "Footer")}</p>
 """
     with open(os.path.join(OUT, "..", "README.md"), "w", encoding="utf-8") as f:
         f.write(readme)
