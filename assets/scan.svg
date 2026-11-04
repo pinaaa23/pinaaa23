@@ -13,8 +13,8 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 .r{animation:fade .25s ease-out backwards}
 .v{animation-name:type;animation-fill-mode:backwards}
 .scan{animation:scan 7.0s linear 0.45s infinite}
-.done{animation:fade .3s ease-out 4.40s backwards}
-.cur{opacity:0;animation:blink 1s steps(1) 4.40s infinite}
+.done{animation:fade .3s ease-out 4.60s backwards}
+.cur{opacity:0;animation:blink 1s steps(1) 4.60s infinite}
 @keyframes win{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
 @keyframes fade{from{opacity:0}to{opacity:1}}
 @keyframes type{from{clip-path:inset(-4px 100% -4px 0)}to{clip-path:inset(-4px 0 -4px 0)}}
@@ -29,7 +29,6 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <g class="win">
  <rect x=".5" y=".5" width="999" height="399" rx="18" fill="#08080d" stroke="#2c2644"/>
  <circle cx="26" cy="24" r="5.5" fill="#ff5f57"/><circle cx="46" cy="24" r="5.5" fill="#febc2e"/><circle cx="66" cy="24" r="5.5" fill="#28c840"/>
- <text class="t" x="500" y="28" text-anchor="middle">pinaaa23@github ~ $ ./profile-scan --live</text>
  <line x1="0" y1="44" x2="1000" y2="44" stroke="#1d1a2e"/>
 
  <rect x="28" y="64" width="400" height="308" rx="12" fill="#0c0b14" stroke="#2c2644"/>
@@ -41,7 +40,14 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
  <rect x="448" y="64" width="524" height="308" rx="12" fill="#0c0b14" stroke="#2c2644"/>
  <text class="h" x="472" y="90">SYSTEM.INFO</text>
  <circle cx="916" cy="86" r="3.5" fill="#28c840"/><text class="t" x="926" y="90" style="font-size:10px;letter-spacing:1.5px">LIVE</text>
- <g class="r" style="animation-delay:0.90s"><text class="k" x="472" y="126">SUBJECT</text><text class="v" x="644" y="126" style="animation-delay:0.90s;animation-duration:0.80s;animation-timing-function:steps(13,end)">Refina Kusuma</text></g><g class="r" style="animation-delay:1.20s"><text class="k" x="472" y="147">HANDLE</text><text class="v" x="644" y="147" style="animation-delay:1.20s;animation-duration:0.60s;animation-timing-function:steps(9,end)">@pinaaa23</text></g><g class="r" style="animation-delay:1.50s"><text class="k" x="472" y="168">ROLE</text><text class="v" x="644" y="168" style="animation-delay:1.50s;animation-duration:0.90s;animation-timing-function:steps(26,end)">Frontend Developer · UI/UX</text></g><g class="r" style="animation-delay:1.80s"><text class="k" x="472" y="189">STATUS</text><text class="v" x="644" y="189" style="animation-delay:1.80s;animation-duration:0.90s;animation-timing-function:steps(31,end)">Building | Learning | Designing</text></g><g class="r" style="animation-delay:2.10s"><text class="k" x="472" y="210">LANGUAGES</text><text class="v" x="644" y="210" style="animation-delay:2.10s;animation-duration:0.90s;animation-timing-function:steps(21,end)">JavaScript, HTML, CSS</text></g><g class="r" style="animation-delay:2.40s"><text class="k" x="472" y="231">REPOSITORIES</text><text class="v" x="644" y="231" style="animation-delay:2.40s;animation-duration:0.25s;animation-timing-function:steps(2,end)">12</text></g><g class="r" style="animation-delay:2.70s"><text class="k" x="472" y="252">CONTRIBUTIONS</text><text class="v" x="644" y="252" style="animation-delay:2.70s;animation-duration:0.30s;animation-timing-function:steps(3,end)">214</text></g><g class="r" style="animation-delay:3.00s"><text class="k" x="472" y="273">STARS</text><text class="v" x="644" y="273" style="animation-delay:3.00s;animation-duration:0.20s;animation-timing-function:steps(1,end)">3</text></g><g class="r" style="animation-delay:3.30s"><text class="k" x="472" y="294">FOLLOWERS</text><text class="v" x="644" y="294" style="animation-delay:3.30s;animation-duration:0.20s;animation-timing-function:steps(1,end)">7</text></g><g class="r" style="animation-delay:3.60s"><text class="k" x="472" y="315">ACTIVE DAYS</text><text class="v" x="644" y="315" style="animation-delay:3.60s;animation-duration:0.25s;animation-timing-function:steps(2,end)">96</text></g><g class="r" style="animation-delay:3.90s"><text class="k" x="472" y="336">CONTACT</text><text class="v" x="644" y="336" style="animation-delay:3.90s;animation-duration:0.85s;animation-timing-function:steps(14,end)">itsrefif.my.id</text></g>
+ <g class="r" style="animation-delay:0.90s"><text class="k" x="472" y="126">SUBJECT</text><text class="v" x="644" y="126" style="animation-delay:0.90s;animation-duration:0.80s;animation-timing-function:steps(13,end)">Refina Kusuma</text></g>
+<g class="r" style="animation-delay:1.30s"><text class="k" x="472" y="156">ROLE</text><text class="v" x="644" y="156" style="animation-delay:1.30s;animation-duration:0.80s;animation-timing-function:steps(26,end)">Frontend Developer · UI/UX</text></g>
+<g class="r" style="animation-delay:1.70s"><text class="k" x="472" y="186">FOCUS</text><text class="v" x="644" y="186" style="animation-delay:1.70s;animation-duration:0.80s;animation-timing-function:steps(28,end)">Responsive web, Figma → code</text></g>
+<g class="r" style="animation-delay:2.10s"><text class="k" x="472" y="216">STACK</text><text class="v" x="644" y="216" style="animation-delay:2.10s;animation-duration:0.90s;animation-timing-function:steps(35,end)">JavaScript, React, HTML, CSS, Figma</text></g>
+<g class="r" style="animation-delay:2.50s"><text class="k" x="472" y="246">CURRENTLY</text><text class="v" x="644" y="246" style="animation-delay:2.50s;animation-duration:0.80s;animation-timing-function:steps(25,end)">Freelance web development</text></g>
+<g class="r" style="animation-delay:2.90s"><text class="k" x="472" y="276">LEARNING</text><text class="v" x="644" y="276" style="animation-delay:2.90s;animation-duration:0.80s;animation-timing-function:steps(29,end)">Mobile apps · Flutter, Kotlin</text></g>
+<g class="r" style="animation-delay:3.30s"><text class="k" x="472" y="306">AVAILABILITY</text><text class="v" x="644" y="306" style="animation-delay:3.30s;animation-duration:0.70s;animation-timing-function:steps(21,end)">Open to collaboration</text></g>
+<g class="r" style="animation-delay:3.70s"><text class="k" x="472" y="336">CONTACT</text><text class="v" x="644" y="336" style="animation-delay:3.70s;animation-duration:0.85s;animation-timing-function:steps(27,end)">refinakusuma.id17@gmail.com</text></g>
  <g class="done"><text class="t" x="472" y="358"><tspan fill="#a78bfa">›</tspan> scan complete</text></g>
  <rect class="cur" x="590" y="347" width="7" height="13" fill="#a78bfa"/>
 </g>
