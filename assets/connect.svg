@@ -1,9 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="86" viewBox="0 0 1000 86" role="img" aria-label="Connection protocol">
-<defs><style>.m{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace}.h{font-size:12px;letter-spacing:2px;fill:#a78bfa}.s{font-size:10px;letter-spacing:1.2px;fill:#77718c}</style></defs>
-<rect x="1" y="1" width="998" height="84" rx="12" fill="#08080d" stroke="#2c2644"/>
-<text class="m h" x="26" y="36">04 / CONNECTION.PROTOCOL</text><text class="m s" x="26" y="58">OPEN CHANNELS · LET'S BUILD SOMETHING</text>
-<line x1="590" y1="22" x2="590" y2="64" stroke="#2c2644"/>
-<circle cx="608" cy="32" r="3" fill="#a78bfa"/><text class="m s" x="620" y="36">GITHUB</text><text class="m s" x="620" y="57">↗</text>
-<circle cx="723" cy="32" r="3" fill="#a78bfa"/><text class="m s" x="735" y="36">PORTFOLIO</text><text class="m s" x="735" y="57">↗</text>
-<circle cx="878" cy="32" r="3" fill="#a78bfa"/><text class="m s" x="890" y="36">EMAIL</text><text class="m s" x="890" y="57">↗</text>
-</svg>
+
+<table width="100%">
+  <tr>
+    <td width="58%">
+      <code>04 / CONNECTION.PROTOCOL</code>
+      <br><br>
+      <sub>OPEN CHANNELS · LET'S BUILD SOMETHING</sub>
+    </td>
+    <td align="center">
+      <a href="https://www.instagram.com/refinaka_/">INSTAGRAM</a>
+    </td>
+    <td align="center">
+      <a href="https://itsreff.my.id/">PORTFOLIO</a>
+    </td>
+    <td align="center">
+      <a href="mailto:refinakusuma.id17@gmail.com">EMAIL</a>
+    </td>
+  </tr>
+</table>
