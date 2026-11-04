@@ -22,12 +22,6 @@
 </p>
 
 <p align="center">
-  <img src="assets/connect.svg"
-       alt="Connection Protocol"
-       width="900">
-</p>
-
-<p align="center">
   <a href="https://www.instagram.com/refinaka_/">Instagram</a>
   &nbsp;·&nbsp;
   <a href="https://itsreff.my.id/" target="_blank">Portfolio</a>
