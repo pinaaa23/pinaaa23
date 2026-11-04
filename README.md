@@ -8,7 +8,9 @@
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/pinaaa23/pinaaa23/output/scan.svg" alt="Profile scan for pinaaa23" width="900">
+<img src="assets/scan.svg"
+     alt="Profile scan for pinaaa23"
+     width="900">
 </p>
 
 ### Stack
