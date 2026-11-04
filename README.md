@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/scan.svg"
+<img src="assets/scan-v2.svg"
      alt="Profile scan for pinaaa23"
      width="900">
 </p>
