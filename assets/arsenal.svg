@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="326" viewBox="0 0 1000 326" role="img" aria-label="Refina Kusuma technology arsenal">
+<defs><style>
+.m{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace}
+.h{font-size:12px;letter-spacing:2px;fill:#a78bfa}.s{font-size:10px;letter-spacing:1.2px;fill:#77718c}
+.g{font-size:11px;letter-spacing:1.5px;fill:#d9d1ec;font-weight:600}.t{font-size:11px;fill:#e8e3f2}
+</style></defs>
+<rect x="1" y="1" width="998" height="324" rx="14" fill="#08080d" stroke="#2c2644"/>
+<text class="m h" x="28" y="34">02 / SYSTEM.MODULES</text><text class="m s" x="972" y="34" text-anchor="end">ARSENAL.INDEX</text>
+<line x1="28" y1="52" x2="972" y2="52" stroke="#2c2644"/>
+<text class="m s" x="30" y="86">01</text><text class="m g" x="76" y="86">FRONTEND DEVELOPMENT</text>
+<g transform="translate(76 103)">
+<rect width="116" height="34" rx="6" fill="#0c0b14" stroke="#40345b"/><text class="m t" x="58" y="22" text-anchor="middle">JavaScript</text>
+<rect x="126" width="76" height="34" rx="6" fill="#0c0b14" stroke="#40345b"/><text class="m t" x="164" y="22" text-anchor="middle">React</text>
+<rect x="212" width="72" height="34" rx="6" fill="#0c0b14" stroke="#40345b"/><text class="m t" x="248" y="22" text-anchor="middle">HTML</text>
+<rect x="294" width="64" height="34" rx="6" fill="#0c0b14" stroke="#40345b"/><text class="m t" x="326" y="22" text-anchor="middle">CSS</text>
+<rect x="368" width="128" height="34" rx="6" fill="#0c0b14" stroke="#40345b"/><text class="m t" x="432" y="22" text-anchor="middle">Tailwind CSS</text>
+<rect x="506" width="92" height="34" rx="6" fill="#0c0b14" stroke="#40345b"/><text class="m t" x="552" y="22" text-anchor="middle">Node.js</text></g>
+<line x1="28" y1="157" x2="972" y2="157" stroke="#211c30"/>
+<text class="m s" x="30" y="190">02</text><text class="m g" x="76" y="190">UI / UX DESIGN</text>
+<g transform="translate(76 207)">
+<rect width="82" height="34" rx="6" fill="#0c0b14" stroke="#40345b"/><text class="m t" x="41" y="22" text-anchor="middle">Figma</text>
+<rect x="92" width="92" height="34" rx="6" fill="#0c0b14" stroke="#40345b"/><text class="m t" x="138" y="22" text-anchor="middle">FigJam</text>
+<rect x="194" width="112" height="34" rx="6" fill="#0c0b14" stroke="#40345b"/><text class="m t" x="250" y="22" text-anchor="middle">Prototyping</text></g>
+<line x1="28" y1="261" x2="972" y2="261" stroke="#211c30"/>
+<text class="m s" x="30" y="294">03</text><text class="m g" x="76" y="294">CURRENTLY EXPLORING</text>
+<g transform="translate(286 274)">
+<rect width="86" height="34" rx="6" fill="#0c0b14" stroke="#40345b"/><text class="m t" x="43" y="22" text-anchor="middle">Flutter</text>
+<rect x="96" width="174" height="34" rx="6" fill="#0c0b14" stroke="#40345b"/><text class="m t" x="183" y="22" text-anchor="middle">Mobile Development</text></g>
+</svg>
