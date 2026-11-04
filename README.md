@@ -21,10 +21,22 @@
   </picture>
 </p>
 
-<p align="center">
-  <a href="https://www.instagram.com/refinaka_/">Instagram</a>
-  &nbsp;·&nbsp;
-  <a href="https://itsreff.my.id/" target="_blank">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:refinakusuma.id17@gmail.com">Email</a>
-</p>
+<!-- CONNECTION PROTOCOL -->
+<table width="100%">
+  <tr>
+    <td width="55%">
+      <strong>04 / CONNECTION.PROTOCOL</strong>
+      <br><br>
+      <sub>OPEN CHANNELS · LET'S BUILD SOMETHING</sub>
+    </td>
+    <td align="center">
+      <a href="https://www.instagram.com/refinaka_/">INSTAGRAM</a>
+    </td>
+    <td align="center">
+      <a href="https://itsreff.my.id/">PORTFOLIO</a>
+    </td>
+    <td align="center">
+      <a href="mailto:refinakusuma.id17@gmail.com">EMAIL</a>
+    </td>
+  </tr>
+</table>
